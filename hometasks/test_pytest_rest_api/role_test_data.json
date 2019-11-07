@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Bornstellar",
+        "type":"Forerunners - Builder",
+        "level":"20",
+        "book":"Halo: Cryptum"
+    },
+    {
+        "name":"Didact",
+        "type":"Forerunners - Warrior",
+        "level":"150",
+        "book":"Halo: Cryptum"
+    },
+    {
+        "name":"Librarian",
+        "type":"Forerunners - Lifeworker",
+        "level":"200",
+        "book":"Halo: Cryptum"
+    },
+    {
+        "name":"Florian",
+        "type":"Humans",
+        "level":"20",
+        "book":"Halo: Cryptum"
+    },
+    {
+        "name":"Chakas",
+        "type":"Human",
+        "level":"20",
+        "book":"Halo: Cryptum"
+    },
+    {
+        "name":"Didact",
+        "type":"Forerunners - Warrior",
+        "level":"150",
+        "book":"Halo: Cryptum"
+    },
+    {
+        "name":"Bornstellar",
+        "type":"Forerunners - Builder",
+        "level":"90",
+        "book":"Halo: Primordium"
+    }
+]
