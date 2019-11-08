@@ -18,7 +18,7 @@ class test_get_requests(unittest.TestCase):
     def test_GET_request_for_book(self):
         _id = self.book_api_m.get_item_id(self.book, self.book_test_data[0])
         request = self.book_api_m.read(self.book,_id)
-        self.assertEqual(request.status, 404)
+        self.assertEqual(request.status, 200)
 
     def test_GET_request_for_role(self):
         _id = self.role_api_m.get_item_id(self.role, self.role_test_data[0])
