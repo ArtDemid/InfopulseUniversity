@@ -26,7 +26,7 @@ class DbConnector:
             # Create a new record
             sql = """INSERT INTO `ow_base_user` (`username`, `email`, `password`, `joinIp`, `emailVerify`)
                      VALUES ("{}", "{}", "{}", "{}", "{}")"""
-            cursor.execute(sql.format(user.username, user.email, _our_hash(user.password), "21423532", 0))
+            cursor.execute(sql.format(user.username, user.email, _get_hash(user.password), "21423532", 0))
         # self.__connection.commit()
         with self.__connection.cursor() as cursor:
             sql1 = f"SELECT * FROM ow_base_user WHERE ow_base_user.username = '{user.username}'"

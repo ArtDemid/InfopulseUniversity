@@ -25,7 +25,7 @@ with open(os.path.join(PROJECT_DIR, "data", "user_data.json")) as f:
     user_data = json.load(f)
 
 @pytest.fixture()
-def driver(selenium, base_url):
+def driver():
     #TODO create pytest.ini config
     driver = webdriver.Chrome()
     driver.get("http://127.0.0.1/oxwall/")
@@ -34,7 +34,8 @@ def driver(selenium, base_url):
 
 @pytest.fixture(scope="session")
 def config(request):
-    filename = request.config.getoption("--config")
+    #filename = request.config.getoption("--config")
+    filename = "config.json"
     with open(os.path.join(PROJECT_DIR, filename)) as f:
         config = json.load(f)
     return config
