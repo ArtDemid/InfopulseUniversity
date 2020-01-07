@@ -1,6 +1,5 @@
 import pytest
-import  requests
-from models import PulseTestAPI, Book
+import requests
 
 @pytest.fixture(scope="session")
 def app():

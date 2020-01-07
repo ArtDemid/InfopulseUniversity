@@ -1,6 +1,6 @@
 from  pages.internal_pages import MainPage, DashboardPage, SignInPage
 
-class OxwallManager(self, driver):
+class OxwallManager:
 
     def __init__(self, driver):
         self.driver = driver
