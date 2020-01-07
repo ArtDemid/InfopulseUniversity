@@ -1,0 +1,18 @@
+[pytest]
+addopts = -v --driver=Chrome --html=report.html --tb=short --config=config.json
+
+base_url = http://127.0.0.1/oxwall/
+sensitive_url = demo.oxwall.com
+
+markers =
+    smoke: mark a test as a smoke for quick testing
+    regression: mark tests as regression for full reg testing
+    full: mark test as full for more deep full testing
+    webtest: UI tests
+
+pytest_files =
+    test_*.py
+    check_*.py
+    *_tests.py
+
+xfail_strict = True

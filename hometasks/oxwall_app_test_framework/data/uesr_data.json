@@ -1,0 +1,16 @@
+[
+    {
+      "username": "admin_acc_2",
+      "password": "pass",
+      "full_name": "Admin Account 2",
+      "email": "admin2@test.com",
+      "is_admin": true
+    },
+    {
+      "username": "Tester_1",
+      "password": "testpass",
+      "full_name": "Test uer not admin",
+      "email": "tester_1@test.com",
+      "is_admin": false
+    }
+]

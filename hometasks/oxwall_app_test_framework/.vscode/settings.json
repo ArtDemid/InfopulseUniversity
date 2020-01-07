@@ -1,0 +1,16 @@
+{
+    "python.testing.pytestArgs": [
+        "packege_tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test*.py"
+    ],
+    "python.pythonPath": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+}
